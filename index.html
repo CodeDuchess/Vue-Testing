@@ -39,11 +39,12 @@
   <body>
    
        <div id= "app">
+         <!--@ IS SHORTHAND FOR V-ON -->
             <div @click="show"=!show">
             <h1>{{ title }}</h1>
         </div> 
             <transition>
-             <h2 v-if="show">{{ description }}</h2>
+             <h3 v-if="show">{{ description }}</h3>
             </transition>  
          </div>
                             
